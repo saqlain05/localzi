@@ -1,0 +1,97 @@
+.mainDiv{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 1rem;
+    padding-top: 4rem;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.rform{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin: 0 auto;
+}
+.ri{
+    height: 1.8rem;
+    outline: none;
+    padding-left: .5rem;
+    margin: .31rem 0;
+}
+
+.guid{
+    text-align: right;
+    margin: .51rem 0;
+}
+
+.tc{
+    margin: 3.5rem 0 .8rem 0;
+    margin-left: 
+    .5rem;
+}
+
+.rbutton{
+    width: 95%;
+    margin: auto;
+    height: 1.9rem;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: palegreen;
+    color: rgb(31, 134, 31);
+    font-weight: 700;
+}
+
+
+
+
+.rbutton:hover{
+    color: palegreen;
+    background-color: rgb(31, 134, 31);;
+}
+
+.mob{
+    display: flex;
+align-items: center;
+border: .61px solid black;
+height: 2rem;
+background-color: #fff;
+
+
+}
+.mob>input{
+    width: 100%;
+    border: none;
+}
+
+.mob>p{
+    border: 1px solid black;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+@media screen and (min-width: 1080px) {
+    .mainDiv{
+        width: 25%;
+        height: 65vh;
+        padding: 1rem;
+        padding-top: 4rem;
+        border-radius: 20px;
+        background-color: whitesmoke;
+        margin-top: 6rem;
+        box-shadow: 10px 10px 5px #aaaaaa;
+
+    }
+    }

@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main_div{
+    /* border: 1px solid black; */
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    margin-top: 5rem;
+    height: 55vh;   
+        padding: 1rem;
+        padding-top: 4rem;
+        border-radius: 20px;
+        background-color: whitesmoke;
+        box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    gap: 1rem;
+    
+}
+.circle1, .circle2{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    background-color: white;
+    box-shadow: 05px 5px 3px #aaaaaa;
+
+    
+    
+}
+.form{
+margin-top: 2rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+}
+
+.first, .second{
+    width: 85%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    border-radius: 20px;
+    background-color: white;
+}
+
+
+
+.icon, .icon3{
+    width: 2rem;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon2{
+    display: none;
+}
+.linput{
+    flex: 3;
+    outline: none;
+    border: none;
+
+}
+
+.button{
+    width: 80%;
+    height: 1.8rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-top: 5rem;
+    background-color: palegreen;
+    color: rgb(31, 134, 31);
+    font-weight: 700;
+}
+
+.button:hover{
+    color: palegreen;
+    background-color: rgb(31, 134, 31);;
+}
+
+@media screen and (min-width: 1080px) {
+    .main_div{
+        width: 25%;
+        height: 50vh;
+        padding: 1rem;
+        padding-top: 4rem;
+        border-radius: 20px;
+        background-color: whitesmoke;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        
+
+    }
+    }
